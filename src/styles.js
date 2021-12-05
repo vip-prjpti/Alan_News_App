@@ -16,6 +16,17 @@ export default makeStyles((theme) => ({
       display: 'none',
     },
   },
+  coverContainer: {
+    width: '100%',
+    marginTop: '90px',
+    textAlign: 'center',
+  },
+  buttonheadergroup: {
+    justifyContent: 'space-between',
+    backgroundColor: '#0045ad',
+
+  },
+
   link: {
     textDecoration: 'none',
     color: 'rgba(21, 101, 192)',
@@ -31,8 +42,10 @@ export default makeStyles((theme) => ({
     padding: '3%',
     borderRadius: 10,
     color: 'white',
-    backgroundColor: 'rgba(21, 101, 192)',
-    margin: '0 12px',
+    // backgroundColor: 'rgba(21, 101, 192)',
+    backgroundColor: '#0045ad',
+    marginTop: '90px',
+    marginLeft: '40px',
     textAlign: 'center',
     height: '25vmin',
     [theme.breakpoints.down('sm')]: {
@@ -59,6 +72,7 @@ export default makeStyles((theme) => ({
     justifyContent: 'space-around',
     alignItems: 'center',
     width: '100%',
+    flexDirection: 'column',
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'column-reverse',
       textAlign: 'center',
