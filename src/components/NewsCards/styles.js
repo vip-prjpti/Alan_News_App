@@ -11,9 +11,12 @@ export default makeStyles({
     padding: '10%',
     borderRadius: 10,
     color: 'white',
+    overflowY: 'auto',
   },
   infoCard: {
-    display: 'flex', flexDirection: 'column', textAlign: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    textAlign: 'center',
   },
   container: {
     padding: '0 5%', width: '100%', margin: 0,
